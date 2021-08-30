@@ -1,0 +1,21 @@
+basic Git workflow 
+
+git clone <git repository link from github> : create local repository 
+
+git status: outline the status of your files. 
+red: not staged 
+green: staged
+"nothing to commit, working tree clean"
+
+git add: stages your file in directory 
+
+git add . adds all files in current directory that are not staged
+
+fir add -A to add all unstaged files to the staging area within 
+the repository 
+
+git commit -m <file> commits the file 
+
+git log display commit history 
+
+git push origin main: upload wokr to GitHub repository 

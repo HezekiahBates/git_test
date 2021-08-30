@@ -1,0 +1,54 @@
+touch (make files: .js, .css, .html, .txt, etc) 
+
+pwd (presently working directory) shows where you are 
+
+if we want to see the actual physical path with all of the symlinks use
+-p flag (pwd -p)
+
+ls shows current folders and files in directory 
+
+(you can pass a path to ls to check files and folders in another directory
+without actually changing directories) 
+
+ls -a shows hidden and visible files 
+
+ls -l shows information about file or directory 
+(file mode, # of links, owner name, group name, # of bytes, month,
+day of month file was last modified, hour and minute last modified,
+and pathname)
+
+ls -lh changes bits to human oriented sizing 1.7k or 35M
+
+ls -lhs sort by size bigger files first 
+
+ls -lt sort by last modified time 
+
+ls -r reverses listing (lsr reverses size to show smallest files first)
+
+ln create a link between two files (creates hard link)
+
+ln source.file target.file
+
+ln -f forcing link to already existing file (ln a.txt b.txt, if b.txt exists)
+
+ln -s creates a symbolic link to link directories and directories 
+symbolic link the operating system creates a new file that 
+points to the target file or directory 
+
+mkdir create directory 
+
+mkdir -p a/b/c nested directories 
+
+cp a.txt b.txt copy single file 
+
+cp a.txt b.txt foo copying files into a directory (foo) with same names 
+
+cp -R foo bar coping directory to another directory 
+
+cp -f a.txt b.txt is a force copy when you have different file owners 
+
+rm a.txt remove a file 
+
+mv a.txt b.txt allows you to copy a file to another and remove it 
+from a location 
+  

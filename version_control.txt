@@ -1,0 +1,24 @@
+version control is a system that records changes to a file or 
+set of files over time so that you can recall specific versions later. 
+
+Version control System allows you to revert slected files back to a 
+previous state, compare changes over time, see who last modified, 
+who introduced an issue and when 
+
+local version control systems: copy files into another directory 
+(time stamped) but error prone. So switched to local VSC that had simple 
+database that kept all chantes to files under revision control 
+
+centralized version control systems: allows for collaboration with 
+other developers (diff systems) single server that contains all
+the versioned files, and a number of clients that check out files
+from that central place 
+
+downside if server goes down for an hour (changes and saves cannot be
+made) if hard disk the central database is on becomes corrupted 
+you lose everything (locals suffer from same problem)
+
+Distrubuted Version Control Systems: clients don't just check out 
+the latest snapshot of files, they mirror the repository - full history
+any client repositories can be copied back up to the server to restore it
+
